@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eletric Drum Kit</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <h1>Online Eletric Drum Kit</h1>
+    <div class="drumkit">
+        <div class="drum--image">
+            <img src="./image/drum1.png" alt="" id="drum">
+
+            <button data-key="keyq" class="hitbox crash">&nbsp;</button>
+            <button data-key="keyw" class="hitbox bass">&nbsp;</button>
+            <button data-key="keye" class="hitbox crash2">&nbsp;</button>
+            <button data-key="keya" class="hitbox snare">&nbsp;</button>
+            <button data-key="keys" class="hitbox tom-high">&nbsp;</button>
+            <button data-key="keyd" class="hitbox tom-medium">&nbsp;</button>
+            <button data-key="keyz" class="hitbox hithat">&nbsp;</button>
+            <button data-key="keyx" class="hitbox tom-floor">&nbsp;</button>
+            <button data-key="keyc" class="hitbox ride">&nbsp;</button>
+            <button data-key="keyv" class="hitbox ridebell">&nbsp;</button>
+
+        </div>
+        <h2>Aperta as teclas para tocar ou clique em cima das letras na imagem</h2>
+        <div class="keys">
+            <div data-key="keyq" class="key">Q</div>
+            <div data-key="keyw" class="key">W</div>
+            <div data-key="keye" class="key">E</div>
+            <div data-key="keya" class="key">A</div>
+            <div data-key="keys" class="key">S</div>
+            <div data-key="keyd" class="key">D</div>
+            <div data-key="keyz" class="key">Z</div>
+            <div data-key="keyx" class="key">X</div>
+            <div data-key="keyc" class="key">C</div>
+            <div data-key="keyv" class="key">V</div>
+        </div>
+    </div>
+    <div class="music">
+        <input type="text" id="input" placeholder="Faça uma composição..." />
+        <button>Play</button>
+    </div>
+
+    <footer>By Raphael Bahr</footer>
+
+    <audio id="s_keyq" src="sounds/keyq.wav"></audio>
+    <audio id="s_keyw" src="sounds/keyw.wav"></audio>
+    <audio id="s_keye" src="sounds/keye.wav"></audio>
+    <audio id="s_keya" src="sounds/keya.wav"></audio>
+    <audio id="s_keys" src="sounds/keys.wav"></audio>
+    <audio id="s_keyd" src="sounds/keyd.wav"></audio>
+    <audio id="s_keyz" src="sounds/keyz.wav"></audio>
+    <audio id="s_keyx" src="sounds/keyx.wav"></audio>
+    <audio id="s_keyc" src="sounds/keyc.wav"></audio>
+    <audio id="s_keyv" src="sounds/keyv.wav"></audio>
+
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>

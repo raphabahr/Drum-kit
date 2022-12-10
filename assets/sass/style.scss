@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(15, 15, 15);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-image: url(/image/backg-Copia\ -\ Copia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: #FFF;
+    margin:20px 0 20px 0;
+}
+
+h2 {
+    color: #FFF;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.drumkit {
+    display: block;
+    position: relative;
+}
+
+#drum {
+    width: 100%;
+    max-width: 900px;
+    padding: 1em;
+}
+
+.drum--image {
+    display: block;
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+}
+
+.hitbox {
+    display: flex;
+    position: absolute;
+    border: 2px solid blue;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+
+    &:after {
+        content: '';
+        padding-top: 100%;
+        display: block;
+        position: relative;
+    }
+
+    &.crash {
+        width: 16%;
+        top: 18.5%;
+        left: 26.5%;
+        border-radius: 100%;
+    }
+    &.bass {
+        width: 13.5%;
+        top: 60%;
+        left: 49%;
+        border-radius: 100%;
+    }
+    &.crash2 {
+        width: 19%;
+        top: 16%;
+        left: 70.5%;
+        border-radius: 100%;
+    }
+    &.snare {
+        width: 19.5%;
+        top: 65%;
+        left: 34%;
+        border-radius: 100%;
+    }
+    &.tom-high {
+        width: 13%;
+        top: 31%;
+        left: 39.5%;
+        border-radius: 100%;
+    }
+    &.tom-medium {
+        width: 15.5%;
+        top: 32%;
+        left: 57.5%;
+        border-radius: 100%;
+    }
+    &.hithat {
+        width: 19.5%;
+        top: 53%;
+        left: 12.5%;
+        border-radius: 100%;
+    }
+    &.tom-floor {
+        width: 17%;
+        top: 65%;
+        left: 66%;
+        border-radius: 100%;
+    }
+    &.ride{
+        width: 10%;
+        top: 64%;
+        left: 83%;
+        border-radius: 100%;
+    }
+    &.ridebell{
+        width: 7%;
+        top: 52%;
+        left: 82.5%;
+        border-radius: 100%;
+    }
+}
+
+.keys {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+}
+
+.key {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.key.active {
+    border: 2px solid #00d7c3;
+    color: #00d7c3;
+}
+
+.music {
+    width: 70%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.music #input {
+    width: 80%;
+    outline: none;
+    font-size: 17px;
+    padding: 10px 15px;
+}
+
+.music button {
+    width: 20%;
+    height: 40px;
+    background: none;
+    border: 2px solid #FFF;
+    border-radius: 50px;
+    color: #FFF;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.music button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+footer {
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 13px;
+}
