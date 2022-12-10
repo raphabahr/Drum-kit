@@ -1,6 +1,6 @@
 This is my Web Eletric Drum kit !
 
-# Portfolio - Raphael Bahr - In progress
+# Drum Kit - Raphael Bahr - In progress
 
 # Sobre o projeto - About the project
 
