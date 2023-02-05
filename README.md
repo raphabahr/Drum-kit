@@ -8,7 +8,7 @@ This is my Web Eletric Drum kit !
 
 
 
-Link do projeto -
+Link do projeto - https://stirring-lolly-ed5ee4.netlify.app
 -----------------------------
 
 ## Projeto - Front end - Tecnologias usadas - Technologies used
@@ -33,7 +33,7 @@ Link do projeto -
   - Open the folder in VScode and start Liveview on index.html.
 
 ## Links
-  - Deploy on netlify:
+  - Deploy on netlify: https://stirring-lolly-ed5ee4.netlify.app
   - Repository: https://github.com/raphabahr/Drum-kit
     - In case of sensitive bugs like security vulnerabilities, please contact
       raphabahr@gmail.com directly instead of using issue tracker. We value your effort
